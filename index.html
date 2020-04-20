@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="57x57" href="./ico/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./ico/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./ico/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./ico/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./ico/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./ico/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./ico/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./ico/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./ico/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./ico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./ico/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./ico/favicon-16x16.png">
+  <link rel="manifest" href="./ico/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./ico/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Inspire Me 🍀</title>
+</head>
+<body style='background: linear-gradient(69deg, rgba(129,203,231,1) 0%, rgba(227,164,173,1) 100%) no-repeat; background-size: cover;' class="h-screen">
+  <header class="text-center p-8 text-white" style="background: linear-gradient(328deg, rgba(212,21,21,1) 0%, rgba(231,100,184,1) 100%);">
+    <h1 class="font-bold text-2xl">Just a simple Web to get quotes with push notification</h1>
+  </header>
+  <main>
+  <script src="main.js"></script>
+
+    <button 
+      id="pushNotif" 
+      onclick="sendPush()" 
+      class="flex justify-center items-center p-4 text-white rounded mx-auto mt-8 shadow-lg transform duration-500 hover:scale-125" 
+      style="background: linear-gradient(328deg, rgba(212,21,21,1) 0%, rgba(231,100,184,1) 100%);">
+      <p>Inspire Me</p>
+      <span class="material-icons ml-3">mood</span>
+    </button>
+  </main>
+</body>
+</html>
