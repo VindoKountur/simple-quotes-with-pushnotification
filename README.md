@@ -10,6 +10,8 @@
 
 * SW
 
+* Tailwind CSS
+
 ### BACKEND
 
 * NodeJS
