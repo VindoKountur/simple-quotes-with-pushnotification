@@ -12,7 +12,7 @@
 
 * Tailwind CSS
 
-### BACKEND
+### BACKEND (in my personal api)
 
 * NodeJS
 
